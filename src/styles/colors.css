@@ -1,0 +1,36 @@
+:root {
+  /* Colores Principales */
+  --primary-green: #0fa69a;
+  --primary-green-hover: #1c8d8e;
+  --dark-blue: #23354b;
+  --dark-blue-variant: #274750;
+
+  /* Colores de Acento */
+  --light-blue: #64c3d3;
+  --turquoise: #00838f;
+  --yellow: #f9a825;
+
+  /* Colores de Prioridad */
+  --priority-low: #e7e7e7;
+  --priority-medium: #fff59d;
+  --priority-high: #ef9a9a;
+
+  /* Colores de Estado de Características */
+  --feature-idea: #d15f8f;
+  --feature-product: #6c6bbc;
+  --feature-ceo: #56c382;
+  --feature-infrastructure: #f1bb5c;
+  --feature-business: #6ec0e6;
+  --feature-customers: #e0895a;
+  --feature-branding: #0fa69a;
+
+  /* Colores de Texto */
+  --text-primary: #161c2d;
+  --text-secondary: #585858;
+  --text-muted: #262626;
+
+  /* Colores de Fondo */
+  --bg-main: #f8fafc;
+  --bg-white: #ffffff;
+  --bg-light-gray: #f1f1f1;
+} 
