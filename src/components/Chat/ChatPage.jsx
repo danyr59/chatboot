@@ -198,7 +198,7 @@ const ChatPage = () => {
                   value={newTitle}
                   onChange={(e) => setNewTitle(e.target.value)}
                   onBlur={() => handleSaveTitle(conv.id)}
-                  onKeyPress={(e) => e.key === 'Enter' && handleSaveTitle(conv.id)}
+                  onKeyDown={(e) => e.key === 'Enter' && handleSaveTitle(conv.id)}
                   autoFocus
                   className="title-input"
                 />
@@ -265,7 +265,7 @@ const ChatPage = () => {
               className="chat-input"
               value={inputMessage}
               onChange={handleInputChange}
-              onKeyPress={handleKeyPress}
+              onKeyDown={handleKeyPress}
               placeholder="Envía un mensaje..."
               rows={1}
               disabled={isLoading || !currentConversation}
